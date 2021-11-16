@@ -1,8 +1,6 @@
-[![CircleCI](https://circleci.com/gh/Alethio/multicall-go.svg?style=svg)](https://circleci.com/gh/Alethio/multicall-go)
-
 ### Multicall
 
-Wrapper for [Multicall](https://github.com/bowd/multicall) which batches calls to contract
+Wrapper for [Multicall](https://github.com/makerdao/multicall) which batches calls to contract
 view functions into a single call and reads all the state in one EVM round-trip.
 
 ### Usage
@@ -11,7 +9,7 @@ The library is used in conjunction with [web3-go](https://github.com/Alethio/web
 
 #### Initialization
 
-The library requires the [Multicall](https://github.com/bowd/multicall) contract to pe deployed on the target chain.
+The library requires the [Multicall](https://github.com/makerdao/multicall) contract to pe deployed on the target chain.
 We have deployed two variants on Mainnet and Ropsten so far which can be used by using the provided configs.
 
 
